@@ -1,0 +1,49 @@
+@media screen and (max-width: 800px){
+    .card{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 750px){
+    .container{
+        padding: 0;
+    }
+    .header-top,
+    .header-info,
+    .info{
+        padding: 0 20px;
+    }
+    .header-inner{
+        min-height: 420px;
+    }
+    .logo img{
+        width: 90px;
+    }
+    .main-nav a{
+        font-size: 13px;
+        }
+    .header-info{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .card{
+        width: 100%;
+    }
+    .cards-block{
+        display: block;
+    }
+    .music-block h2{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 480px){
+    .header-top{
+        display: block;
+        text-align: center;
+    }
+    .main-title{
+        font-size: 14px;
+    }
+    .subtitle {
+    font-size: 14px;
+}
+}
